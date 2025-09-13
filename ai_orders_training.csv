@@ -1,0 +1,1103 @@
+typing_speed,time_on_page,payment_type,user_id,is_fraud
+64,244,paypal,98218,0
+43,205,cash on delivery,78303,0
+28,404,credit card,52394,0
+36,341,credit card,43670,0
+48,201,paypal,66217,0
+68,92,credit card,87805,0
+66,52,cash on delivery,44655,0
+43,435,paytm,42887,0
+60,513,paypal,60070,0
+77,375,cash on delivery,13537,0
+32,206,paypal,29437,0
+26,411,paypal,29587,0
+27,309,credit card,96476,0
+58,524,paypal,52203,0
+126,19,credit card,15611,1
+64,480,paytm,57922,0
+48,562,paytm,20358,0
+88,398,credit card,42396,0
+79,57,paytm,59194,0
+43,207,cash on delivery,65232,0
+77,337,paypal,56911,0
+40,218,cash on delivery,15162,0
+24,537,paytm,73727,0
+62,477,cash on delivery,56716,0
+227,18,paypal,46511,1
+36,435,cash on delivery,87852,0
+87,464,credit card,71257,0
+53,321,cash on delivery,87667,0
+240,14,credit card,22531,1
+68,474,credit card,69787,0
+41,413,paytm,48080,0
+65,553,paytm,38685,0
+71,167,paypal,30756,0
+41,299,cash on delivery,11144,0
+34,526,credit card,33323,0
+157,16,credit card,29168,1
+90,274,paytm,26918,0
+55,514,cash on delivery,59823,0
+86,540,paypal,96104,0
+20,309,credit card,62603,0
+40,393,cash on delivery,56999,0
+79,60,cash on delivery,14332,0
+52,232,cash on delivery,20221,0
+84,95,paytm,12423,0
+39,522,cash on delivery,15432,0
+287,18,paypal,66903,1
+32,121,credit card,97852,0
+20,439,cash on delivery,63964,0
+53,392,paytm,95976,0
+87,309,credit card,17519,0
+83,226,cash on delivery,43743,0
+27,412,credit card,19542,0
+61,145,cash on delivery,73551,0
+81,252,cash on delivery,13865,0
+44,236,credit card,21727,0
+31,257,paytm,12755,0
+48,211,cash on delivery,92111,0
+87,442,paytm,72329,0
+24,367,credit card,50408,0
+23,397,paytm,87053,0
+40,451,paypal,55665,0
+77,403,cash on delivery,74179,0
+52,191,paytm,47675,0
+52,107,paytm,33693,0
+26,538,paytm,45757,0
+38,456,cash on delivery,17414,0
+90,245,credit card,56947,0
+24,225,cash on delivery,35770,0
+78,204,paytm,89924,0
+58,242,paypal,14846,0
+221,19,credit card,13050,1
+25,91,paypal,36591,0
+266,5,credit card,72809,1
+86,340,credit card,43439,0
+55,131,paypal,95565,0
+27,169,cash on delivery,89138,0
+88,426,credit card,38026,0
+66,402,paypal,30076,0
+40,130,cash on delivery,67588,0
+55,146,credit card,89486,0
+81,284,paytm,99444,0
+66,586,paytm,59265,0
+32,349,cash on delivery,83068,0
+72,462,paypal,72564,0
+66,58,credit card,33763,0
+48,587,paypal,43593,0
+226,19,paypal,85633,1
+77,409,cash on delivery,44325,0
+77,148,credit card,23246,0
+79,542,cash on delivery,63950,0
+29,447,cash on delivery,11068,0
+78,586,credit card,75444,0
+83,576,credit card,94850,0
+233,27,paypal,74855,1
+50,71,credit card,40712,0
+75,401,paypal,10464,0
+43,440,credit card,89195,0
+32,437,cash on delivery,77898,0
+55,306,paytm,75663,0
+54,349,cash on delivery,74796,0
+64,111,paytm,40097,0
+89,89,cash on delivery,22407,0
+25,324,cash on delivery,29184,0
+175,9,credit card,16468,1
+50,576,cash on delivery,52602,0
+81,349,cash on delivery,51084,0
+75,593,paytm,35579,0
+32,79,cash on delivery,46826,0
+255,9,credit card,72518,1
+61,223,cash on delivery,92244,0
+30,427,credit card,79081,0
+64,486,paytm,77561,0
+69,199,cash on delivery,76088,0
+29,419,credit card,77498,0
+48,366,credit card,80984,0
+38,272,credit card,87348,0
+26,190,paypal,93329,0
+82,323,cash on delivery,74449,0
+23,558,paypal,65134,0
+58,315,paytm,51279,0
+64,496,cash on delivery,13561,0
+63,134,paytm,42511,0
+87,260,paytm,26260,0
+49,90,paytm,80806,0
+53,381,paytm,85704,0
+59,349,credit card,63223,0
+61,434,credit card,76635,0
+47,447,credit card,11218,0
+81,239,paytm,98339,0
+88,424,paytm,19629,0
+78,235,cash on delivery,69931,0
+33,92,paypal,76109,0
+31,566,paypal,94584,0
+33,590,paytm,47010,0
+55,170,paypal,39954,0
+53,574,cash on delivery,51054,0
+63,410,cash on delivery,89338,0
+85,576,paypal,70763,0
+68,83,paypal,99966,0
+63,330,credit card,30578,0
+59,404,paytm,76511,0
+68,570,credit card,79629,0
+47,404,cash on delivery,32081,0
+76,52,credit card,98418,0
+21,84,credit card,87101,0
+73,394,credit card,76541,0
+53,233,paypal,50187,0
+68,136,cash on delivery,67246,0
+59,123,paytm,99149,0
+81,581,cash on delivery,16683,0
+41,592,cash on delivery,97554,0
+64,198,cash on delivery,38420,0
+52,407,credit card,19186,0
+20,482,cash on delivery,88270,0
+42,300,credit card,54192,0
+78,144,cash on delivery,50330,0
+80,466,credit card,27221,0
+87,153,credit card,94675,0
+57,542,credit card,53405,0
+57,578,paypal,87687,0
+160,15,paypal,76698,1
+82,246,credit card,30038,0
+64,279,credit card,89876,0
+65,161,paytm,18832,0
+40,159,credit card,22588,0
+26,587,cash on delivery,54877,0
+42,446,credit card,74375,0
+233,23,paypal,22070,1
+24,107,cash on delivery,20361,0
+77,581,cash on delivery,23916,0
+33,584,cash on delivery,65421,0
+21,272,paypal,52336,0
+86,393,paypal,82167,0
+130,27,credit card,81483,1
+57,215,paytm,74704,0
+62,231,cash on delivery,69120,0
+62,381,paypal,71875,0
+81,141,cash on delivery,31462,0
+43,211,cash on delivery,16575,0
+245,6,credit card,38958,1
+69,365,paypal,84354,0
+27,392,paypal,91167,0
+74,71,credit card,89146,0
+56,444,paytm,87769,0
+73,399,paypal,89403,0
+180,7,paypal,66908,1
+78,267,paytm,46153,0
+246,22,credit card,78587,1
+57,111,cash on delivery,27571,0
+86,491,cash on delivery,25309,0
+90,323,cash on delivery,52184,0
+60,340,cash on delivery,80865,0
+46,374,paytm,51646,0
+27,540,paypal,13378,0
+46,516,paypal,56947,0
+32,567,credit card,39850,0
+61,74,credit card,87296,0
+45,307,credit card,45637,0
+37,101,paytm,67723,0
+57,254,cash on delivery,20006,0
+36,391,credit card,62890,0
+26,510,credit card,72260,0
+66,325,cash on delivery,49596,0
+82,415,credit card,73643,0
+83,314,credit card,17694,0
+68,166,credit card,69398,0
+45,343,paytm,82130,0
+39,375,paypal,89444,0
+48,258,cash on delivery,20908,0
+85,242,cash on delivery,36178,0
+43,117,credit card,26014,0
+52,155,credit card,62377,0
+90,90,cash on delivery,79532,0
+54,195,credit card,41103,0
+59,283,paypal,55245,0
+59,418,credit card,56226,0
+127,27,paypal,39200,1
+28,149,paytm,11932,0
+68,188,paypal,42184,0
+68,370,cash on delivery,32343,0
+56,298,paytm,54565,0
+269,27,credit card,90368,1
+79,363,paypal,64676,0
+280,16,credit card,38211,1
+150,22,credit card,18083,1
+47,369,paytm,85424,0
+50,266,paypal,24490,0
+73,174,paytm,74075,0
+51,470,paytm,48725,0
+280,8,credit card,85853,1
+58,204,paypal,22587,0
+24,468,paytm,82943,0
+69,549,credit card,96960,0
+88,596,paypal,22042,0
+21,55,paypal,30642,0
+75,268,paypal,34572,0
+42,470,cash on delivery,79739,0
+28,442,credit card,55730,0
+81,333,paytm,40880,0
+45,509,paytm,12163,0
+57,585,paypal,91384,0
+70,533,credit card,86981,0
+88,405,credit card,28854,0
+48,398,paypal,98670,0
+24,218,credit card,74641,0
+70,460,cash on delivery,45053,0
+51,537,paytm,44414,0
+122,7,credit card,10710,1
+69,259,paypal,44914,0
+87,315,cash on delivery,98746,0
+283,16,credit card,58234,1
+24,346,paypal,58344,0
+34,325,paytm,24133,0
+253,15,paypal,80755,1
+23,482,paypal,63568,0
+176,21,paypal,26961,1
+64,599,credit card,84648,0
+40,580,paypal,85616,0
+57,438,paypal,64832,0
+68,296,cash on delivery,85379,0
+68,109,paypal,45702,0
+24,433,credit card,94404,0
+87,328,paytm,81661,0
+42,565,paypal,39538,0
+22,241,paytm,36783,0
+24,442,credit card,87358,0
+74,149,paypal,85263,0
+89,312,cash on delivery,82119,0
+81,212,paypal,24125,0
+25,237,credit card,13882,0
+52,280,paytm,89163,0
+81,372,paypal,41734,0
+255,19,credit card,61906,1
+75,385,cash on delivery,97639,0
+170,9,credit card,61789,1
+27,466,paypal,44228,0
+84,340,credit card,52129,0
+157,5,credit card,70956,1
+32,419,credit card,48353,0
+31,412,paypal,43831,0
+70,92,credit card,70708,0
+39,77,credit card,32391,0
+39,290,paytm,90730,0
+65,115,credit card,73015,0
+78,350,paypal,88897,0
+145,25,credit card,71054,1
+60,262,paypal,12706,0
+87,284,cash on delivery,63905,0
+53,362,paytm,80940,0
+87,302,cash on delivery,69645,0
+65,573,paypal,25871,0
+45,345,cash on delivery,29204,0
+35,177,cash on delivery,52733,0
+21,404,credit card,67863,0
+78,473,paytm,33350,0
+64,161,paypal,60224,0
+63,348,credit card,80464,0
+77,397,paytm,12493,0
+79,420,credit card,54542,0
+65,592,paytm,30050,0
+82,550,credit card,32032,0
+45,397,cash on delivery,75184,0
+90,230,paypal,23245,0
+28,242,paypal,29584,0
+20,352,cash on delivery,19992,0
+60,409,credit card,84426,0
+80,73,cash on delivery,56366,0
+51,264,cash on delivery,91671,0
+52,51,cash on delivery,18723,0
+40,549,credit card,46221,0
+35,494,paypal,58096,0
+69,68,credit card,25700,0
+73,238,cash on delivery,33625,0
+41,310,credit card,66053,0
+86,280,paytm,56216,0
+33,547,cash on delivery,99218,0
+69,194,paytm,93227,0
+75,588,paytm,31030,0
+37,196,credit card,44531,0
+52,96,paytm,91908,0
+59,292,credit card,91199,0
+48,75,paytm,43147,0
+22,217,paypal,12439,0
+76,58,paytm,36239,0
+139,28,paypal,33673,1
+89,421,paytm,36470,0
+25,201,paytm,34115,0
+78,420,paypal,90548,0
+49,397,cash on delivery,88311,0
+37,274,paypal,29808,0
+45,225,credit card,29065,0
+31,221,paytm,74278,0
+241,13,paypal,20707,1
+72,125,paytm,41889,0
+196,7,credit card,75034,1
+40,552,paytm,85555,0
+300,28,credit card,44506,1
+64,192,credit card,22903,0
+90,153,paytm,32361,0
+87,336,cash on delivery,24781,0
+72,370,credit card,50249,0
+56,481,cash on delivery,66709,0
+62,442,paytm,54821,0
+55,477,paytm,61715,0
+49,128,cash on delivery,53878,0
+28,484,paytm,80309,0
+73,549,paytm,92988,0
+85,191,paytm,33225,0
+53,175,cash on delivery,35761,0
+69,110,credit card,21682,0
+56,264,cash on delivery,81416,0
+23,83,paypal,17348,0
+41,501,paytm,51295,0
+41,62,paypal,15566,0
+207,29,credit card,64111,1
+25,56,cash on delivery,71039,0
+80,210,paypal,81248,0
+75,561,credit card,22424,0
+67,276,credit card,50679,0
+72,392,credit card,96651,0
+40,578,paytm,62434,0
+51,343,cash on delivery,98040,0
+29,562,paypal,71139,0
+42,49,paytm,76422,0
+66,197,cash on delivery,78249,0
+40,590,paytm,57477,0
+40,136,paypal,59821,0
+55,292,credit card,96300,0
+66,373,paypal,68337,0
+47,117,cash on delivery,93236,0
+56,228,paypal,45776,0
+54,151,credit card,59211,0
+41,587,credit card,53274,0
+259,29,paypal,52212,1
+33,499,credit card,96280,0
+29,410,paypal,68864,0
+175,26,credit card,15671,1
+44,301,paypal,64690,0
+207,8,credit card,59728,1
+57,450,paytm,13492,0
+89,173,paypal,98755,0
+22,295,paypal,21814,0
+29,467,paypal,33779,0
+22,427,credit card,50561,0
+171,29,paypal,31616,1
+75,105,paytm,36714,0
+72,507,paytm,59234,0
+155,19,credit card,60840,1
+45,478,paypal,45124,0
+44,456,cash on delivery,51268,0
+60,390,paytm,94979,0
+75,592,paypal,43825,0
+82,47,paytm,75357,0
+53,560,paytm,80709,0
+55,398,cash on delivery,83821,0
+22,553,cash on delivery,22508,0
+81,225,paytm,27866,0
+200,24,credit card,93786,1
+21,492,cash on delivery,34688,0
+48,488,cash on delivery,72915,0
+89,424,credit card,32558,0
+60,301,paytm,62247,0
+61,596,paytm,78832,0
+46,422,credit card,55637,0
+61,63,cash on delivery,26270,0
+42,316,credit card,74361,0
+23,381,credit card,17540,0
+62,100,credit card,21058,0
+26,358,paypal,56038,0
+42,135,credit card,91005,0
+57,131,paypal,62916,0
+83,137,paytm,87805,0
+72,555,cash on delivery,33936,0
+36,183,paytm,57073,0
+30,110,cash on delivery,84925,0
+69,572,paypal,52502,0
+71,565,cash on delivery,16326,0
+68,287,paytm,68573,0
+33,458,cash on delivery,67712,0
+86,462,cash on delivery,54717,0
+50,536,paypal,58725,0
+63,497,cash on delivery,46865,0
+62,296,credit card,97529,0
+144,28,credit card,79903,1
+47,519,credit card,75059,0
+46,336,paypal,22194,0
+87,563,cash on delivery,77968,0
+60,370,cash on delivery,24318,0
+75,237,cash on delivery,12912,0
+69,374,paytm,55429,0
+81,63,paytm,36028,0
+70,473,paytm,52532,0
+43,281,cash on delivery,60996,0
+82,56,paypal,25157,0
+53,125,paypal,29223,0
+65,318,credit card,13715,0
+154,14,paypal,32419,1
+66,270,cash on delivery,61174,0
+126,19,paypal,55488,1
+21,126,credit card,21180,0
+56,447,paytm,39350,0
+48,176,paypal,40741,0
+22,343,paypal,67669,0
+42,143,paytm,40734,0
+24,182,paytm,78949,0
+32,459,paypal,82248,0
+51,333,credit card,54611,0
+53,471,paypal,32343,0
+46,583,paytm,41988,0
+83,477,cash on delivery,75050,0
+67,304,paypal,99683,0
+289,28,credit card,12872,1
+284,7,paypal,68660,1
+81,55,paytm,91689,0
+75,150,paytm,53423,0
+22,598,credit card,82830,0
+84,407,paytm,73114,0
+29,445,paypal,92289,0
+50,471,paypal,46207,0
+38,290,paypal,50182,0
+41,62,paytm,32416,0
+40,543,paytm,13204,0
+83,194,paytm,37272,0
+120,20,paypal,63087,1
+39,302,paypal,99537,0
+24,336,paypal,61141,0
+53,113,paypal,56468,0
+22,464,cash on delivery,18760,0
+23,495,paytm,49287,0
+45,389,credit card,15805,0
+33,408,cash on delivery,13575,0
+40,127,credit card,16946,0
+79,72,credit card,36216,0
+56,114,cash on delivery,56672,0
+68,437,cash on delivery,48867,0
+66,443,paytm,27264,0
+30,147,paytm,42978,0
+29,113,credit card,26982,0
+63,228,cash on delivery,53972,0
+52,244,cash on delivery,89412,0
+57,520,paytm,63533,0
+84,324,cash on delivery,15848,0
+58,580,credit card,21319,0
+65,344,paytm,72901,0
+59,230,paypal,80210,0
+23,224,credit card,27362,0
+66,527,paytm,86687,0
+89,494,cash on delivery,14080,0
+179,30,paypal,75504,1
+47,398,paytm,62712,0
+76,354,paypal,47208,0
+299,15,paypal,42687,1
+45,365,paypal,36238,0
+200,9,paypal,41316,1
+51,273,paypal,51366,0
+22,483,paytm,71657,0
+61,425,paypal,52162,0
+74,269,paypal,80121,0
+75,438,credit card,64238,0
+81,84,paytm,67768,0
+47,299,cash on delivery,50843,0
+65,185,credit card,38291,0
+34,423,paytm,72146,0
+52,267,paypal,61829,0
+73,341,cash on delivery,45912,0
+82,472,credit card,29384,0
+38,396,paytm,84756,0
+154,21,paypal,56273,1
+29,538,cash on delivery,73821,0
+66,278,credit card,42968,0
+41,452,paypal,91537,0
+75,163,paytm,68294,0
+53,389,cash on delivery,37652,0
+181,12,credit card,59874,1
+67,344,paypal,82491,0
+32,486,paytm,74385,0
+89,245,cash on delivery,46127,0
+44,367,credit card,58239,0
+71,523,paypal,39684,0
+56,212,paytm,75862,0
+138,24,credit card,64195,1
+78,395,cash on delivery,51746,0
+23,441,paypal,87394,0
+62,186,credit card,42857,0
+85,578,paytm,73924,0
+39,364,cash on delivery,56831,0
+73,297,paypal,68452,0
+164,18,credit card,79563,1
+48,432,paytm,84617,0
+91,268,cash on delivery,35928,0
+27,519,credit card,72481,0
+58,341,paypal,46792,0
+76,174,paytm,59387,0
+45,485,cash on delivery,81634,0
+202,11,paypal,47592,1
+69,356,credit card,52748,0
+31,427,paytm,76319,0
+84,239,cash on delivery,68541,0
+42,463,paypal,93476,0
+77,312,credit card,54782,0
+54,547,paytm,41693,0
+136,29,paypal,85274,1
+88,184,cash on delivery,37529,0
+25,394,credit card,72648,0
+63,276,paytm,59831,0
+72,485,paypal,46927,0
+49,225,cash on delivery,81364,0
+86,573,credit card,74258,0
+37,418,paytm,52697,0
+149,25,credit card,68391,1
+81,347,paypal,45932,0
+28,539,cash on delivery,79586,0
+67,263,paytm,53724,0
+74,426,credit card,86142,0
+52,358,paypal,71659,0
+90,197,cash on delivery,42878,0
+33,474,paytm,95731,0
+176,16,credit card,58493,1
+46,389,paypal,74826,0
+79,284,cash on delivery,61947,0
+61,452,credit card,38574,0
+85,336,paytm,72659,0
+43,568,paypal,49712,0
+68,219,cash on delivery,86341,0
+125,22,credit card,57428,1
+87,375,paytm,43961,0
+22,494,paypal,78596,0
+64,297,cash on delivery,51832,0
+76,441,credit card,69473,0
+51,368,paytm,84725,0
+83,526,paypal,47689,0
+29,415,cash on delivery,72358,0
+162,19,credit card,59641,1
+47,386,paytm,83574,0
+92,258,paypal,46127,0
+35,523,cash on delivery,71498,0
+59,342,credit card,85692,0
+73,467,paytm,52836,0
+86,214,paypal,78459,0
+41,591,cash on delivery,64371,0
+213,8,credit card,49752,1
+77,329,paytm,73584,0
+24,456,paypal,86917,0
+66,283,cash on delivery,51429,0
+81,518,credit card,74263,0
+48,375,paytm,67894,0
+89,247,paypal,42658,0
+36,432,cash on delivery,79185,0
+187,13,credit card,56743,1
+72,364,paytm,85291,0
+55,489,paypal,48726,0
+82,276,cash on delivery,71359,0
+44,427,credit card,63987,0
+91,356,paytm,58742,0
+26,541,paypal,74618,0
+68,218,cash on delivery,81479,0
+143,27,credit card,52896,1
+79,388,paytm,67543,0
+33,467,paypal,84629,0
+65,319,cash on delivery,49782,0
+87,543,credit card,72156,0
+41,394,paytm,86394,0
+76,265,paypal,53718,0
+58,477,cash on delivery,78251,0
+158,14,credit card,64739,1
+49,416,paytm,85672,0
+94,287,paypal,47893,0
+27,524,cash on delivery,71548,0
+62,361,credit card,58946,0
+84,448,paytm,73627,0
+71,293,paypal,46185,0
+39,586,cash on delivery,82394,0
+224,10,credit card,57821,1
+86,372,paytm,74569,0
+32,459,paypal,68743,0
+75,286,cash on delivery,51492,0
+53,534,credit card,79386,0
+88,348,paytm,63857,0
+45,421,paypal,86294,0
+67,259,cash on delivery,52741,0
+171,17,credit card,48695,1
+78,395,paytm,75829,0
+21,468,paypal,84627,0
+64,324,cash on delivery,59713,0
+90,512,credit card,72456,0
+46,387,paytm,68394,0
+83,274,paypal,51697,0
+37,545,cash on delivery,86372,0
+195,15,credit card,74258,1
+69,418,paytm,57943,0
+54,351,paypal,83694,0
+81,476,cash on delivery,46729,0
+42,392,credit card,79516,0
+77,327,paytm,62835,0
+89,563,paypal,75184,0
+28,447,cash on delivery,51837,0
+167,20,credit card,68492,1
+52,374,paytm,86759,0
+93,289,paypal,43627,0
+35,528,cash on delivery,77451,0
+66,365,credit card,59784,0
+74,442,paytm,84612,0
+87,278,paypal,52967,0
+41,591,cash on delivery,76318,0
+210,9,credit card,49638,1
+80,356,paytm,73842,0
+25,484,paypal,67594,0
+63,327,cash on delivery,52186,0
+88,519,credit card,78439,0
+47,398,paytm,64721,0
+76,262,paypal,51873,0
+34,573,cash on delivery,85296,0
+152,23,credit card,58947,1
+71,415,paytm,74628,0
+59,341,paypal,46792,0
+82,467,cash on delivery,79351,0
+43,384,credit card,62594,0
+90,536,paytm,75817,0
+26,429,paypal,58463,0
+67,298,cash on delivery,83746,0
+139,26,credit card,52918,1
+85,373,paytm,69574,0
+38,456,paypal,74829,0
+73,315,cash on delivery,61382,0
+51,542,credit card,86795,0
+94,287,paytm,47639,0
+29,491,paypal,72584,0
+65,359,cash on delivery,58271,0
+183,18,credit card,75496,1
+48,427,paytm,84673,0
+77,294,paypal,51926,0
+56,568,cash on delivery,79348,0
+89,356,credit card,62847,0
+42,413,paytm,75692,0
+84,279,paypal,48573,0
+31,537,cash on delivery,86251,0
+166,21,credit card,59374,1
+72,398,paytm,73856,0
+60,342,paypal,67429,0
+86,475,cash on delivery,52918,0
+44,387,credit card,84761,0
+79,526,paytm,58294,0
+93,263,paypal,71847,0
+27,449,cash on delivery,86392,0
+204,12,credit card,74659,1
+53,416,paytm,68571,0
+91,288,paypal,52946,0
+36,534,cash on delivery,79483,0
+68,371,credit card,63827,0
+87,448,paytm,75194,0
+75,295,paypal,49682,0
+41,578,cash on delivery,84356,0
+178,14,credit card,57293,1
+49,423,paytm,86794,0
+82,349,paypal,72658,0
+64,486,cash on delivery,51739,0
+90,362,credit card,78425,0
+33,517,paytm,64891,0
+76,274,paypal,53746,0
+58,445,cash on delivery,87952,0
+147,25,credit card,69384,1
+71,394,paytm,74859,0
+55,357,paypal,46827,0
+83,529,cash on delivery,79516,0
+46,386,credit card,62794,0
+92,467,paytm,75368,0
+28,432,paypal,58149,0
+67,318,cash on delivery,84627,0
+192,11,credit card,52976,1
+74,415,paytm,73856,0
+39,468,paypal,67394,0
+81,341,cash on delivery,51829,0
+57,554,credit card,86792,0
+88,329,paytm,48675,0
+45,517,paypal,72584,0
+69,286,cash on delivery,59317,0
+161,19,credit card,75428,1
+52,417,paytm,84693,0
+95,293,paypal,57946,0
+24,539,cash on delivery,71358,0
+66,368,credit card,63829,0
+73,451,paytm,79562,0
+87,277,paypal,46817,0
+40,591,cash on delivery,85294,0
+219,7,credit card,58473,1
+78,376,paytm,74862,0
+56,342,paypal,52937,0
+84,463,cash on delivery,86759,0
+47,394,credit card,61584,0
+91,518,paytm,75293,0
+32,427,paypal,49682,0
+65,359,cash on delivery,83746,0
+174,16,credit card,67459,1
+89,385,paytm,58274,0
+43,474,paypal,84627,0
+76,317,cash on delivery,72516,0
+58,543,credit card,51938,0
+86,368,paytm,79463,0
+71,295,paypal,64738,0
+29,456,cash on delivery,87295,0
+156,22,credit card,75384,1
+54,428,paytm,68591,0
+92,349,paypal,52847,0
+37,525,cash on delivery,86749,0
+67,381,credit card,74692,0
+83,467,paytm,59374,0
+75,278,paypal,71856,0
+41,589,cash on delivery,48573,0
+203,13,credit card,85296,1
+49,415,paytm,67429,0
+88,287,paypal,52918,0
+35,531,cash on delivery,79463,0
+72,374,credit card,64738,0
+90,449,paytm,87295,0
+26,462,paypal,75384,0
+63,326,cash on delivery,68591,0
+185,15,credit card,52847,1
+47,423,paytm,86749,0
+81,356,paypal,74692,0
+59,488,cash on delivery,59374,0
+85,339,credit card,71856,0
+44,516,paytm,48573,0
+77,283,paypal,85296,0
+68,447,cash on delivery,67429,0
+142,24,credit card,52918,1
+73,396,paytm,79463,0
+51,363,paypal,64738,0
+94,472,cash on delivery,87295,0
+38,418,credit card,75384,0
+82,524,paytm,68591,0
+89,297,paypal,52847,0
+33,564,cash on delivery,86749,0
+168,17,credit card,74692,1
+65,387,paytm,59374,0
+91,334,paypal,71856,0
+42,513,cash on delivery,48573,0
+78,369,credit card,85296,0
+56,442,paytm,67429,0
+87,276,paypal,52918,0
+74,558,cash on delivery,79463,0
+198,10,credit card,64738,1
+48,424,paytm,87295,0
+83,351,paypal,75384,0
+61,497,cash on delivery,68591,0
+90,373,credit card,52847,0
+29,539,paytm,86749,0
+66,318,paypal,74692,0
+85,445,cash on delivery,59374,0
+173,18,credit card,71856,1
+52,405,paytm,48573,0
+94,288,paypal,85296,0
+36,526,cash on delivery,67429,0
+71,378,credit card,52918,0
+88,461,paytm,79463,0
+79,295,paypal,64738,0
+43,571,cash on delivery,87295,0
+157,21,credit card,75384,1
+67,416,paytm,68591,0
+92,343,paypal,52847,0
+55,502,cash on delivery,86749,0
+84,364,credit card,74692,0
+47,437,paytm,59374,0
+86,281,paypal,71856,0
+73,554,cash on delivery,48573,0
+226,8,credit card,85296,1
+39,423,paytm,67429,0
+81,350,paypal,52918,0
+58,489,cash on delivery,79463,0
+93,375,credit card,64738,0
+30,528,paytm,87295,0
+64,322,paypal,75384,0
+90,448,cash on delivery,68591,0
+144,23,credit card,52847,1
+76,397,paytm,86749,0
+53,368,paypal,74692,0
+89,475,cash on delivery,59374,0
+45,389,credit card,71856,0
+82,512,paytm,48573,0
+91,298,paypal,85296,0
+27,561,cash on delivery,67429,0
+189,14,credit card,52918,1
+70,408,paytm,79463,0
+95,335,paypal,64738,0
+41,521,cash on delivery,87295,0
+77,376,credit card,75384,0
+54,454,paytm,68591,0
+88,279,paypal,52847,0
+32,566,cash on delivery,86749,0
+172,19,credit card,74692,1
+63,391,paytm,59374,0
+92,346,paypal,71856,0
+49,493,cash on delivery,48573,0
+85,377,credit card,85296,0
+71,440,paytm,67429,0
+89,284,paypal,52918,0
+38,557,cash on delivery,79463,0
+216,11,credit card,64738,1
+56,417,paytm,87295,0
+94,352,paypal,75384,0
+43,504,cash on delivery,68591,0
+80,368,credit card,52847,0
+67,431,paytm,86749,0
+91,287,paypal,74692,0
+74,545,cash on delivery,59374,0
+165,20,credit card,71856,1
+52,402,paytm,48573,0
+87,339,paypal,85296,0
+35,518,cash on delivery,67429,0
+78,374,credit card,52918,0
+59,457,paytm,79463,0
+93,283,paypal,64738,0
+46,562,cash on delivery,87295,0
+181,16,credit card,75384,1
+68,413,paytm,68591,0
+90,348,paypal,52847,0
+37,511,cash on delivery,86749,0
+75,379,credit card,74692,0
+84,466,paytm,59374,0
+88,292,paypal,71856,0
+31,549,cash on delivery,48573,0
+205,12,credit card,85296,1
+61,420,paytm,67429,0
+96,355,paypal,52918,0
+48,496,cash on delivery,79463,0
+83,371,credit card,64738,0
+72,444,paytm,87295,0
+90,289,paypal,75384,0
+29,553,cash on delivery,68591,0
+148,24,credit card,52847,1
+65,408,paytm,86749,0
+91,344,paypal,74692,0
+54,485,cash on delivery,59374,0
+87,377,credit card,71856,0
+44,459,paytm,48573,0
+79,295,paypal,85296,0
+76,547,cash on delivery,67429,0
+191,13,credit card,52918,1
+57,424,paytm,79463,0
+94,351,paypal,64738,0
+42,508,cash on delivery,87295,0
+81,373,credit card,75384,0
+68,436,paytm,68591,0
+92,281,paypal,52847,0
+33,565,cash on delivery,86749,0
+177,17,credit card,74692,1
+73,399,paytm,59374,0
+89,347,paypal,71856,0
+50,494,cash on delivery,48573,0
+86,375,credit card,85296,0
+47,441,paytm,67429,0
+93,286,paypal,52918,0
+40,559,cash on delivery,79463,0
+234,9,credit card,64738,1
+62,415,paytm,87295,0
+95,353,paypal,75384,0
+39,501,cash on delivery,68591,0
+78,370,credit card,52847,0
+55,453,paytm,86749,0
+88,288,paypal,74692,0
+74,548,cash on delivery,59374,0
+154,22,credit card,71856,1
+92,421,paypal,34688,0
+55,259,cash on delivery,72915,0
+84,17,credit card,32558,0
+47,395,paytm,62247,0
+86,468,paypal,78832,0
+73,324,cash on delivery,55637,0
+226,512,credit card,26270,0
+39,387,paytm,74361,0
+81,274,paypal,17540,0
+58,545,cash on delivery,21058,0
+93,15,credit card,56038,0
+30,418,paytm,91005,0
+64,351,paypal,62916,0
+90,476,cash on delivery,87805,0
+144,392,credit card,33936,0
+76,327,paytm,57073,0
+53,563,paypal,84925,0
+89,447,cash on delivery,52502,0
+45,20,credit card,16326,0
+82,374,paytm,68573,0
+91,289,paypal,67712,0
+27,528,cash on delivery,54717,0
+189,365,credit card,58725,0
+70,442,paytm,46865,0
+95,278,paypal,97529,0
+41,591,cash on delivery,79903,1
+77,9,credit card,75059,0
+54,356,paytm,22194,0
+88,484,paypal,77968,0
+32,327,cash on delivery,24318,0
+172,519,credit card,12912,0
+63,398,paytm,55429,0
+92,262,paypal,36028,0
+49,573,cash on delivery,52532,0
+85,23,credit card,60996,0
+71,415,paytm,25157,0
+89,341,paypal,29223,0
+38,467,cash on delivery,13715,0
+216,384,credit card,32419,1
+56,536,paytm,61174,0
+94,429,paypal,55488,1
+43,298,cash on delivery,21180,0
+80,26,credit card,39350,0
+67,373,paytm,40741,0
+91,456,paypal,67669,0
+74,315,cash on delivery,40734,0
+165,542,credit card,78949,0
+52,287,paytm,82248,0
+87,491,paypal,54611,0
+35,359,cash on delivery,32343,0
+78,18,credit card,41988,0
+59,427,paytm,75050,0
+93,294,paypal,99683,0
+46,568,cash on delivery,12872,1
+181,356,credit card,68660,1
+68,413,paytm,91689,0
+90,279,paypal,53423,0
+37,537,cash on delivery,82830,0
+75,21,credit card,73114,0
+84,398,paytm,92289,0
+88,342,paypal,46207,0
+31,475,cash on delivery,50182,0
+205,387,credit card,32416,0
+61,526,paytm,13204,0
+96,263,paypal,37272,0
+48,449,cash on delivery,63087,1
+83,12,credit card,99537,0
+72,416,paytm,61141,0
+90,288,paypal,56468,0
+29,534,cash on delivery,18760,0
+148,371,credit card,49287,0
+65,448,paytm,15805,0
+91,295,paypal,13575,0
+54,578,cash on delivery,16946,0
+87,14,credit card,36216,0
+44,423,paytm,56672,0
+79,349,paypal,48867,0
+76,486,cash on delivery,27264,0
+191,362,credit card,42978,0
+57,517,paytm,26982,0
+94,274,paypal,53972,0
+42,445,cash on delivery,89412,0
+81,25,credit card,63533,0
+68,394,paytm,15848,0
+92,357,paypal,21319,0
+33,529,cash on delivery,72901,0
+177,386,credit card,80210,0
+73,467,paytm,27362,0
+89,432,paypal,86687,0
+50,318,cash on delivery,14080,0
+86,11,credit card,75504,1
+47,415,paytm,62712,0
+93,468,paypal,47208,0
+40,341,cash on delivery,42687,1
+234,554,credit card,36238,0
+62,329,paytm,41316,1
+95,517,paypal,51366,0
+39,286,cash on delivery,71657,0
+78,19,credit card,52162,0
+55,417,paytm,80121,0
+88,293,paypal,64238,0
+64,295,cash on delivery,86749,0
+43,578,credit card,74692,0
+28,14,paytm,59374,0
+36,423,paypal,71856,0
+48,349,cash on delivery,48573,0
+68,486,credit card,85296,1
+66,362,paytm,67429,0
+43,517,paypal,52918,0
+60,274,cash on delivery,79463,0
+77,445,credit card,64738,0
+32,25,paytm,87295,0
+26,394,paypal,75384,0
+27,357,cash on delivery,68591,0
+58,529,credit card,52847,1
+126,386,paytm,86749,0
+64,467,paypal,74692,0
+48,432,cash on delivery,59374,0
+88,318,credit card,71856,0
+79,11,paytm,48573,0
+43,415,paypal,85296,0
+77,468,cash on delivery,67429,0
+40,341,credit card,52918,1
+24,554,paytm,79463,0
+62,329,paypal,64738,0
+227,517,cash on delivery,87295,0
+36,286,credit card,75384,0
+87,19,paytm,68591,0
+53,417,paypal,52847,0
+240,293,cash on delivery,86749,0
+68,539,credit card,74692,1
+41,368,paytm,59374,0
+65,451,paypal,71856,0
+71,277,cash on delivery,48573,0
+41,591,credit card,85296,0
+34,7,paytm,67429,0
+157,376,paypal,52918,0
+90,342,cash on delivery,79463,0
+55,463,credit card,64738,1
+86,394,paytm,87295,0
+20,518,paypal,75384,0
+40,427,cash on delivery,68591,0
+79,359,credit card,52847,0
+52,16,paytm,86749,0
+84,385,paypal,74692,0
+39,474,cash on delivery,59374,0
+287,317,credit card,71856,1
+32,543,paytm,48573,0
+20,368,paypal,85296,0
+53,295,cash on delivery,67429,0
+87,456,credit card,52918,0
+83,22,paytm,79463,0
+27,428,paypal,64738,0
+61,349,cash on delivery,87295,0
+81,525,credit card,75384,1
+44,381,paytm,68591,0
+31,467,paypal,52847,0
+48,278,cash on delivery,86749,0
+87,589,credit card,74692,0
+24,13,paytm,59374,0
+23,415,paypal,71856,0
+40,287,cash on delivery,48573,0
+77,531,credit card,85296,1
+52,374,paytm,67429,0
+52,449,paypal,52918,0
+26,462,cash on delivery,79463,0
+38,326,credit card,64738,0
+90,15,paytm,87295,0
+24,423,paypal,75384,0
+78,356,cash on delivery,68591,0
+58,488,credit card,52847,1
+221,339,paytm,86749,0
+25,516,paypal,74692,0
+266,283,cash on delivery,59374,0
+86,447,credit card,71856,0
+55,24,paytm,48573,0
+27,396,paypal,85296,0
+88,363,cash on delivery,67429,0
+66,472,credit card,52918,1
+40,418,paytm,79463,0
+55,524,paypal,64738,0
+81,297,cash on delivery,87295,0
+66,564,credit card,75384,0
+32,17,paytm,68591,0
+72,387,paypal,52847,0
+66,334,cash on delivery,86749,0
+48,513,credit card,74692,1
+226,369,paytm,59374,0
+77,442,paypal,71856,0
+77,276,cash on delivery,48573,0
+79,558,credit card,85296,0
+29,10,paytm,67429,0
+78,424,paypal,52918,0
+83,351,cash on delivery,79463,0
+233,497,credit card,64738,1
+50,373,paytm,87295,0
+75,539,paypal,75384,0
+43,318,cash on delivery,68591,0
+32,445,credit card,52847,0
+55,18,paytm,86749,0
+89,405,paypal,74692,0

@@ -1,0 +1,9 @@
+flask
+flask-cors
+joblib
+pandas
+scikit-learn
+mysql-connector-python
+azure-ai-anomalydetector
+azure-core 
+RandomForestClassifier

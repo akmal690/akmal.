@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE Hardware Store - Project Architecture</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #3498db, #e74c3c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .architecture {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        .section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 5px solid #3498db;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section h2::before {
+            content: '';
+            width: 30px;
+            height: 30px;
+            background: #3498db;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        .component {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .component:hover {
+            transform: translateY(-5px);
+            border-color: #3498db;
+            box-shadow: 0 10px 25px rgba(52, 152, 219, 0.2);
+        }
+
+        .component h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+        }
+
+        .component ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .component li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f1f3f4;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .component li::before {
+            content: '▶';
+            color: #3498db;
+            font-size: 0.8em;
+        }
+
+        .component li:last-child {
+            border-bottom: none;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .tech-tag {
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .fraud-system {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .fraud-system h3 {
+            color: white;
+            border-bottom-color: white;
+        }
+
+        .fraud-system ul {
+            color: white;
+        }
+
+        .fraud-system li::before {
+            color: white;
+        }
+
+        .database-schema {
+            background: #2c3e50;
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .database-schema h3 {
+            color: white;
+            border-bottom-color: #3498db;
+        }
+
+        .table {
+            background: #34495e;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        .table h4 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .endpoints {
+            background: linear-gradient(135deg, #27ae60, #2ecc71);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .endpoints h3 {
+            color: white;
+            border-bottom-color: white;
+        }
+
+        .endpoint {
+            background: rgba(255,255,255,0.1);
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+            border-left: 4px solid white;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2, .grid-3 {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .architecture {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏗️ ACE Hardware Store</h1>
+            <p>E-Commerce Platform with AI-Powered Fraud Detection System</p>
+        </div>
+
+        <div class="architecture">
+            <div class="section">
+                <h2>🎯 Project Overview</h2>
+                <p style="font-size: 1.1em; line-height: 1.6; color: #555;">
+                    ACE Hardware Store is a comprehensive e-commerce platform built with PHP and enhanced with a Python-based AI fraud detection system. 
+                    The project combines traditional web technologies with modern machine learning to create a secure and intelligent shopping experience.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>🏗️ System Architecture</h2>
+                <div class="grid-2">
+                    <div class="component">
+                        <h3>Frontend Layer</h3>
+                        <ul>
+                            <li>User Interface (PHP/HTML/CSS)</li>
+                            <li>Admin Dashboard</li>
+                            <li>Product Catalog</li>
+                            <li>Shopping Cart</li>
+                            <li>User Authentication</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+
+                    <div class="component">
+                        <h3>Backend Layer</h3>
+                        <ul>
+                            <li>PHP Business Logic</li>
+                            <li>Database Management</li>
+                            <li>Session Handling</li>
+                            <li>File Upload System</li>
+                            <li>Order Processing</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Apache</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🤖 AI Fraud Detection System</h2>
+                <div class="fraud-system">
+                    <h3>Machine Learning Pipeline</h3>
+                    <ul>
+                        <li><strong>Model:</strong> Random Forest Classifier</li>
+                        <li><strong>Features:</strong> Typing Speed, Time on Page, Payment Type</li>
+                        <li><strong>Training Data:</strong> AI Orders Training Dataset</li>
+                        <li><strong>Real-time Prediction:</strong> Fraud Probability Scoring</li>
+                        <li><strong>Decision Engine:</strong> Allow/Block Transactions</li>
+                    </ul>
+                    
+                    <div class="tech-stack" style="margin-top: 20px;">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Joblib</span>
+                        <span class="tech-tag">Pandas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🗄️ Database Schema</h2>
+                <div class="database-schema">
+                    <div class="grid-3">
+                        <div class="table">
+                            <h4>👥 Users & Admins</h4>
+                            <ul>
+                                <li>users (id, name, email, password)</li>
+                                <li>admins (id, name, password)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="table">
+                            <h4>🛍️ Products & Orders</h4>
+                            <ul>
+                                <li>products (id, name, details, price, images)</li>
+                                <li>orders (id, user_id, total_price, status)</li>
+                                <li>cart (user_id, product_id, quantity)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="table">
+                            <h4>🚨 Fraud Detection</h4>
+                            <ul>
+                                <li>fraud_attempts (user_id, typing_speed, time_on_page, payment_type, reason)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🔌 API Endpoints</h2>
+                <div class="endpoints">
+                    <div class="grid-2">
+                        <div>
+                            <h3>Core Endpoints</h3>
+                            <div class="endpoint">POST /verify</div>
+                            <div class="endpoint">GET /health</div>
+                            <div class="endpoint">GET /model-info</div>
+                            <div class="endpoint">GET /fraud-attempts</div>
+                        </div>
+                        
+                        <div>
+                            <h3>Analytics Endpoints</h3>
+                            <div class="endpoint">GET /accuracy</div>
+                            <div class="endpoint">GET /accuracy/detailed</div>
+                            <div class="endpoint">GET /performance-summary</div>
+                            <div class="endpoint">POST /accuracy/custom</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🚀 Key Features</h2>
+                <div class="grid-3">
+                    <div class="component">
+                        <h3>🛒 E-Commerce</h3>
+                        <ul>
+                            <li>Product Catalog</li>
+                            <li>Shopping Cart</li>
+                            <li>User Registration</li>
+                            <li>Order Management</li>
+                            <li>Admin Dashboard</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="component">
+                        <h3>🔒 Security</h3>
+                        <ul>
+                            <li>AI Fraud Detection</li>
+                            <li>Real-time Monitoring</li>
+                            <li>Behavioral Analysis</li>
+                            <li>Risk Assessment</li>
+                            <li>Transaction Logging</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="component">
+                        <h3>📊 Analytics</h3>
+                        <ul>
+                            <li>Model Performance</li>
+                            <li>Fraud Statistics</li>
+                            <li>Accuracy Metrics</li>
+                            <li>Custom Testing</li>
+                            <li>Performance Reports</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🛠️ Technology Stack</h2>
+                <div class="grid-2">
+                    <div class="component">
+                        <h3>Frontend & Backend</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP 8.0</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Apache</span>
+                        </div>
+                    </div>
+                    
+                    <div class="component">
+                        <h3>AI & ML</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python 3.13</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Joblib</span>
+                            <span class="tech-tag">NumPy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>ACE Hardware Store - E-Commerce Platform with AI Fraud Detection</p>
+            <p>Built with modern web technologies and machine learning</p>
+        </div>
+    </div>
+</body>
+</html>
